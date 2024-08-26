@@ -87,26 +87,6 @@ function formatTime(time) {
     };
 }
 
-
-// -------------- Demonstration -------------------
-
-/* const minutes = Math.floor(123456 / (60 * 1000)); */
-// minutes = Math.floor(2.0586);
-// minutes = 2 (after rounding down)
-
-/* const seconds = Math.floor((123456 % (60 * 1000)) / 1000); */
-// seconds = Math.floor(3456 / 1000);
-// seconds = Math.floor(3.456);
-// seconds = 3 (after rounding down)
-
-
-/* const miliseconds = Math.floor((123456 % 1000) / 10); */
-// miliseconds = Math.floor(456 / 10);
-// miliseconds = Math.floor(45.6);
-// miliseconds = 45 (after rounding down)
-
-
-
 // Function to display the formatted time
 function displayTime({ minutes, seconds, miliseconds }) {
     minutesElement.textContent = `${minutes}:`;
